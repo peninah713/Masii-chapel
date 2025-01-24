@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background-color: #002366; /* Blue */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.header ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #ff0000, #002366); /* Red to Blue Gradient */
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+.hero button {
+  background: white;
+  color: #002366;
+  padding: 0.7rem 1.5rem;
+  border: 2px solid white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #ff0000;
+  color: white;
+}
+
+/* Sections */
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.section h2 {
+  color: #ff0000; /* Red */
+  margin-bottom: 1rem;
+}
+
+.about {
+  background-color: #f8f9fa; /* Light Gray */
+}
+
+.services {
+  background-color: #002366; /* Blue */
+  color: white;
+}
+
+.events {
+  background-color: #ff0000; /* Red */
+  color: white;
+}
+
+.contact {
+  background-color: #f8f9fa; /* Light Gray */
+}
+
+.contact .social-links a {
+  color: #002366;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.contact .social-links a:hover {
+  color: #ff0000;
+}
+
+/* Footer */
+.footer {
+  background-color: #002366; /* Blue */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
